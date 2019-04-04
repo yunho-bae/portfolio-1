@@ -47,5 +47,5 @@ iframe{border:none;}
 
 /* -----------   반응형 시작   ----------- */
 @media screen and (max-width:768px){
-
+header{background-color: yellow}
 }
