@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+html {font-size:100%; vertical-align: baseline; height: 100%; overflow-y: scroll;}
+body {font:normal 12px;	line-height:1.2; color:#666666; margin:0; padding:0;
+font-family: 'NanumBarunGothic', '맑은 고딕', '돋움', Dotum, sans-serif;}
+h1, h2, h3, h4, h5, h6 {font-size:1em;}
+h1, h2, h3, h4, h5, h6, div, p, dl, dt, dd, ul, ol, li, form, fieldset, blockquote, address, table, thead, tbody, tfoot, tr, td, caption {margin:0;	padding:0;}
+img {border:none;}
+ul, ol {list-style:none;}
+figure{margin:0;}
+a{text-decoration: none;}
+iframe{border:none;}
+
+/* -----------------------------------------------------     reset 끝    --------------------------------------------------------------------- */
+.wrap{width: 100%;}
+
+
+/* -----------   COMMON   ----------- */
+
+
+
+
+
+
+/* -----------   HEADER  ----------- */
+.hd_container{width: 1170px; height: 50px;; margin:0 auto; position:relative; background-color: yellow;}
+.hd_topmenu{background-color: skyblue; position: absolute; top:10px; right:0;}
+.topmenu_l{float: left; background-color: lime;}
+.topmenu_l li{float: left;}
+.topmenu_r{float: left; background-color: orange;}
+.hd_mainmenu{background-color:#005EAA; width: 100%;}
+.hd_mainmenu ul{width: 1170px; height:45px; background-color:#005EAA; overflow:hidden; margin:0 auto;}
+.hd_mainmenu li{float: left; width: 20%; height:100%; text-align: center}
+.hd_mainmenu a{
+    color: #fff; 
+    font-size: 18px; 
+    display: inline-block; 
+    width: 100%; height:43px;
+    line-height: 43px;
+    margin-top:1px;
+}
+.hd_mainmenu a:hover{background-color: #fff; color:#005eaa}
+
+
+
+
+
+/* -----------   반응형 시작   ----------- */
+@media screen and (max-width:768px){
+
+}
