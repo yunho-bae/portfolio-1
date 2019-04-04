@@ -49,3 +49,6 @@ iframe{border:none;}
 @media screen and (max-width:768px){
 header{background-color: yellow}
 }
+@media screen and (min-width:1024px){
+    header{background-color: yellow}
+    }
